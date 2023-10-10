@@ -1,0 +1,7 @@
+[package]
+description = Remove some common dns log entries
+script_dir = scripts
+
+[input dns_query_droplist.csv]
+summary=dns droplist
+description=dns query glob patterns to drop from dns log
